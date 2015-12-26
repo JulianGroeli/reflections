@@ -1,1 +1,5 @@
 When would you want to use a remote repository rather than keeping all your work local?
+Keeping your work on a remote repository make sense for most situations. It would make sense to work locally if you are working on a small project by yourself and you want to keep it private and don't want to pay Github for a private account.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Just like with other actions in git, making syncronization manual forces it to be a more deliberate decision by users. There's less likelyhood of overwriting files unintentionally, and it probably makes the functionality more predictable and more likely to meet the expectations of users.
