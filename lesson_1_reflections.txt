@@ -1,23 +1,18 @@
 How did viewing a diff between two versions of a file help you see the bug that was introduced?
-
-using diff made it quick and easy to see changes between files
-it was much faster than trying to find the changes by hand
+Using diff made it quick and easy to see changes between files.
+It was much faster than trying to find the changes by hand.
 
 How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
-
-It'd save a lot of time in finding errors in code
+It'd save a lot of time in finding errors in code.
 It'd make it easier to recover from issues, for example if a file was deleted.
 
 What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
-
 Automatic saving takes the logic out of when and why files are saved. With an intentional commit action from the user, like with Git or similar version control systems, a commit has more meaning and can be tracked back more easily.
 
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
-
 The version control systems are meant to solve different types of problems. Saving multiple files concurrently is necessary when the files are closely related and dependent to each other. Google docs don't need other files to function since they are independent.
 
 How can you use the commands git log and git diff to view the history of files?
-
 First use git log to see the list of commits which represent break points in work.
 Once you have the commit ID of a point you'd like to examine, or two that you'd like to compare, you can use git diff to compare the versions and see what changed.
 
@@ -26,5 +21,4 @@ It makes it easier to go back in case something is broken or accidentally delete
 It also makes it easy to see when a specific feature or bug was introduced.
 
 Now that you have your workspace set up, what do you want to try using Git for?
-
-Downloading code from and working on the intro to machine learning course.
+Downloading code from and working on the Udacity intro to machine learning course.
