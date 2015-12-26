@@ -3,3 +3,12 @@ Keeping your work on a remote repository make sense for most situations. It woul
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Just like with other actions in git, making syncronization manual forces it to be a more deliberate decision by users. There's less likelyhood of overwriting files unintentionally, and it probably makes the functionality more predictable and more likely to meet the expectations of users.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks are clones of other repositories that Github makes on its servers.
+Clones are copies or repositories regardless of location.
+Branches are a series of commits within a repository.
+
+Forks ideal for cloning a repository and maintaining a link back to the original repository to give credit to the original creator and to make it easy to suggest changes in future versions.
+Clones are often used in conjunction with github to download content from an online repository to a local computer.
+Branches are used to develop new features or sets of commits within a repository.
