@@ -12,3 +12,6 @@ Branches are a series of commits within a repository.
 Forks ideal for cloning a repository and maintaining a link back to the original repository to give credit to the original creator and to make it easy to suggest changes in future versions.
 Clones are often used in conjunction with github to download content from an online repository to a local computer.
 Branches are used to develop new features or sets of commits within a repository.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+If you're going to be offline for a while and want to compare your work to the last known state of the remote.
