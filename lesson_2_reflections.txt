@@ -3,3 +3,22 @@ Github creates a .git directory to store metadata information about tracked file
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area is a preparation area for making a commit. It allows selection of specific files to be added to the commit, and allows planning of a commit before it is processed.
+
+How can you use the staging area to make sure you have one commit per logical change?
+The staging areas makes commits more deliberate by forcing users to specify exactly what is being committed. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches would help tremendously with testing out new experimental features without fear of breaking existing functional code.
+
+How do the diagrams help you visualize the branch structure?
+It's a lot easier to see how commits and branches are related visually.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Mergeing branches together is a powerful way of integrating work that has been completed on a separte effort back into the main set of code.
+I understand the principle of how it can work well, but it seems like there are potential issues if one person deletes code that another person's code is depending on to run properly.
+I guess that'd become evident when running and testing the code of the newly created merge commit. 
+The represenatation of a branching diagram accurately shows the separate development efforts underway and can provide a good overview of work in progress.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging is great for taking care of simple bug fixes that don't affect other areas of code too much.
+If singificant changes are affected or if people are trying to solve the same problem in different ways then that's too complex for git to figure out and it's probably better for the people involved to discuss which approach is better and decide what to do.
