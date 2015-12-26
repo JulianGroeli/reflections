@@ -15,3 +15,7 @@ Branches are used to develop new features or sets of commits within a repository
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 If you're going to be offline for a while and want to compare your work to the last known state of the remote.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+It'd be easier to keep track of changes made by different people at different times.
+Since tracking is automated it might lead to the assumption that everyone should work on all areas of a project. Doing that without proper communication of design intent could make things more confusing.
