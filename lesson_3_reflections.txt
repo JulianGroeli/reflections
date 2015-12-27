@@ -19,3 +19,9 @@ If you're going to be offline for a while and want to compare your work to the l
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 It'd be easier to keep track of changes made by different people at different times.
 Since tracking is automated it might lead to the assumption that everyone should work on all areas of a project. Doing that without proper communication of design intent could make things more confusing.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+It depends on the project. If it's a simple project with just a few features and not yet released to the public, then working in the master is less risky.
+If it's a large project with lots of users and features that depend on each other to work properly, then working in the master is definately not a good idea.
+Access to modifying master on such a project is probably also very restricted.
+It's great the working in branches allows for a safe way to experiment with new features and tweaks in this kind of project through a robust system of review, critique, refinement and approval.
